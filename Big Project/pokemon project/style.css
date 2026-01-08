@@ -1,0 +1,86 @@
+:root {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+    }
+
+}
+
+.pk-card {
+    width: 20em;
+    height: fit-content;
+    background-image: linear-gradient(black 20%, rgb(247, 235, 5) 40%);
+
+    padding: 1rem;
+    border-radius: 1em;
+    border: 2px, solid, pink;
+    box-shadow: 5px, 5px, red;
+
+}
+
+#pk-title {
+    height: 2rem;
+    width: auto;
+    background-color: yellow;
+    align-content: end;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    border-radius: 5px;
+
+
+}
+
+#pic {
+    width: 20rem;
+    align-content: center;
+    margin: auto;
+    height: 11em;
+    
+    border-radius: 5px;
+    border-left: 5px solid red;
+    border-bottom: 5px solid green;
+    border-right: 8px solid yellow;
+    border-top: 4px solid blue ;
+}
+
+
+#moves_grid {
+    height: 10em;
+    width: auto;
+    border: 10px solid transparent;
+
+    border-image: url(pk_border.png) 30 round;
+    display: grid;
+   
+    border-radius: 5px;
+    margin-top: 1.5em;
+
+    display: grid;
+    grid-template-columns: min-content;
+    row-gap: 20px;
+    padding: 2em;
+
+}
+
+#move {
+    height: 5em;
+    background-color: red
+}
+
+
