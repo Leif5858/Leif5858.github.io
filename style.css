@@ -1,7 +1,12 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: beige;
+  
+}
+
+main{
+  margin: 0;
+  padding: 0 30;
 }
 
 
