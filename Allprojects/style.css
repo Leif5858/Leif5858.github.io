@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: whitesmoke;
+  color: black;
+}
+
+
+
+header {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: .1rem;
+  position: sticky;
+  top: 0;
+}
+
+
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: .1rem;
+
+  position: sticky;
+  bottom: 0
+}
+
+
+.gridcont {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+
+
+.card {
+  background: white;
+  border-radius: 6px;
+  display: block;
+}
+
+
+img {
+  width: 100%;
+  display: block;
+}
+
+
+
+
+figcaption {
+  padding: 0.75rem;
+  font-size: 1rem;
+  color: black;
+}

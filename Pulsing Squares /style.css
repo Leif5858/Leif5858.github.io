@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 200px;
+    animation: pulse 1.5s infinite ease-in-out;
+
+}
+
+
+@keyframes pulse {
+    0% { transform: scale(1);}
+    50% { transform: scale(1.5);}
+    100% { transform: scale(1);}
+}

@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#box {
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    animation-name: movebox;
+}
+
+
+.clicked {
+    
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: cornflowerblue;
+    animation: movebox 5s ease-in-out infinite;
+}
+
+@keyframes movebox {
+    0%,100% {
+        left: -300px;
+        top: -300px;
+    }
+
+    25% {
+        left: 300px;
+        top: -300px;
+    }
+
+    50% {
+        left: 300px;
+        top: 300px;
+    }
+
+    75% {
+        left: -300px;
+        top: 300px;
+    }
+}

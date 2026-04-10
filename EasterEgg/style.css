@@ -1,0 +1,94 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.egg {
+    width: 130px;
+    height: 180px;
+    background-color: rgb(249, 199, 79);
+    border-radius: 50%;
+    box-shadow: 6px 6px rgb(169, 123, 17);
+}
+
+
+.dot1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    left: -100px;
+    top: -30px;
+
+}
+
+
+
+
+.dot2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    position: relative;
+    left: -90px;
+    top: -50px;
+
+}
+
+
+
+.dot3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: turquoise;
+    position: relative;
+    left: -110px;
+    top: -10px;
+
+}
+
+
+
+.dot4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: red;
+    position: relative;
+    left: -70px;
+    top: -18px;
+
+}
+
+
+
+.dot5{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: relative;
+    left: -88px;
+    top: -29px;
+
+}
+
+
+
+.dot6{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: blue;
+    position: relative;
+    left: -70px;
+    top: -30px;
+
+}
+

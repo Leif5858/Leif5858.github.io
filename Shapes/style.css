@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 50px;
+
+    height: 100vdh;
+    width: 100vdh;
+
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+
+    
+
+    gap: 2rem;
+    flex-direction: column;
+}
+
+
+#scoop {
+    height: 150px;
+    width: 150px;
+
+    background-color: blueviolet;
+    text-align: center;
+
+    padding-top: 60px;
+    box-sizing: border-box;
+
+    border-radius: 30px;
+    corner-shape: scoop;
+    
+}
+
+
+
+#bevel {
+    height: 150px;
+    width: 150px;
+
+    background-color: darkcyan;
+    text-align: center;
+
+    padding-top: 60px;
+    box-sizing: border-box;
+
+    border-radius: 30px;
+    corner-shape: bevel;
+}
+
+
+
+
+
+#notch{
+    height: 150px;
+    width: 150px;
+
+    background-color: darkorange;
+    text-align: center;
+
+    padding-top: 60px;
+    box-sizing: border-box;
+
+    border-radius: 50px;
+    corner-shape: notch;
+}
+
+
+
+#square{
+    height: 150px;
+    width: 150px;
+
+    background-color: lightcoral;
+    text-align: center;
+
+    padding-top: 60px;
+    box-sizing: border-box;
+
+    border-radius: 30px;
+    corner-shape: square;
+}
+
+
+
+#squircle{
+    height: 150px;
+    width: 150px;
+
+    background-color: royalblue;
+    text-align: center;
+
+    padding-top: 60px;
+    box-sizing: border-box;
+
+    border-radius: 90px;
+    corner-shape: squircle;
+}
+
+
+
+
+
+
+#round{
+    height: 150px;
+    width: 150px;
+
+    background-color: yellow;
+    text-align: center;
+
+    padding-top: 60px;
+    box-sizing: border-box;
+
+    border-radius: 90px;
+    corner-shape: round;
+}
+
+
+
+
+
+
+
+
