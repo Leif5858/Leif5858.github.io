@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+#triangle-top {
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 70px solid;
+    top: 0;
+    animation: rotate 2s linear infinite;
+}
+
+
+#triangle-bottom {
+    position: absolute;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 70px solid;
+    bottom: 0;
+    animation: rotateReverse 2s linear infinite;
+}
+
+
+
+
+@keyframes rotate {
+    0% { transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+@keyframes rotateReverse {
+    0% { transform: rotate(180deg);}
+    100% { transform: rotate(-180deg);}
+}

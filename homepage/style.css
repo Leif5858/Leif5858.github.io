@@ -77,3 +77,16 @@ ul li a:hover {
   flex-direction: row;
   gap: 20px;
 }
+
+
+
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: .1rem;
+
+  position: sticky;
+  bottom: 0
+}
