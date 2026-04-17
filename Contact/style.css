@@ -1,25 +1,18 @@
-.contact-form {
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 20px;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+ 
 }
 
-.contact-form label {
-    margin-bottom: 10px;
-}
+.contact-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px black;
+    text-align: center;
+    width: 400px;
 
-input {
-    width: 100%;
-    padding: 8px;
-}
-
-textarea {
-    width: 100%;
-    padding: 8px;
-}
-
-#btn {
-    padding: 10px 15px;
-    background: #333;
-    color: #fff;
 }
