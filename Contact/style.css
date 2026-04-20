@@ -1,4 +1,4 @@
-body {
+main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,4 +15,16 @@ body {
     text-align: center;
     width: 400px;
 
+}
+
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: .1rem;
+
+  position: sticky;
+  bottom: 0;
+  width: 100%;
 }
