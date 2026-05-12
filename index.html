@@ -6,108 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/nav-style.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
 
 <body>
 
-    <div id="nav-placeholder"></div>
 
 
 
-    <main>
+    <form id="login">
+            <h2>Sign In</h2>
 
-        <header>
-            <h1>My Website - Unit 5 Project</h1>
-        </header>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required>
 
-
-
-
-
-
-        <section id="project-cards">
-
-            <div class="page-card">
-                <div class="page-title">
-                    Pokemon Project
-                </div>
-
-                <img src="/projects/pokemon project/image.png" alt="image of pokemon">
-
-
-                <div class="page-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, cumque. Laudantium quis cum
-                    ea officia nobis. Odit, non unde dignissimos mollitia eligendi, distinctio, omnis quibusdam eum
-                    alias vel corrupti repellat!
-                </div>
-            </div>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
 
 
 
-
-            <div class="page-card">
-                <div class="page-title">
-                    Pokemon Project
-                </div>
-
-                <img src="/projects/pokemon project/image.png" alt="image of pokemon">
+        <button type="submit">submit</button>
 
 
-                <div class="page-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, cumque. Laudantium quis cum
-                    ea officia nobis. Odit, non unde dignissimos mollitia eligendi, distinctio, omnis quibusdam eum
-                    alias vel corrupti repellat!
-                </div>
-            </div>
+<div id="error-msg">Wrong Username or Password</div>
 
+    </form>
 
+    
 
-            <div class="page-card">
-                <div class="page-title">
-                    Pokemon Project
-                </div>
-
-                <img src="/projects/pokemon project/image.png" alt="image of pokemon">
-
-
-                <div class="page-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, cumque. Laudantium quis cum
-                    ea officia nobis. Odit, non unde dignissimos mollitia eligendi, distinctio, omnis quibusdam eum
-                    alias vel corrupti repellat!
-                </div>
-            </div>
-
-
-            <div class="page-card">
-                <div class="page-title">
-                    Pokemon Project
-                </div>
-
-                <img src="/projects/pokemon project/image.png" alt="image of pokemon">
-
-
-                <div class="page-description">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, cumque. Laudantium quis cum
-                    ea officia nobis. Odit, non unde dignissimos mollitia eligendi, distinctio, omnis quibusdam eum
-                    alias vel corrupti repellat!
-                </div>
-            </div>
-
-            <hr>
-
-    </main>
-
-
-    <div id="foot-holder"></div>
-
-
-
-    <script src="../navbar.js"></script>
-    <script src="../footer.js"></script>
-
-
+    <script src="script.js"></script>
 </body>
 
 </html>
